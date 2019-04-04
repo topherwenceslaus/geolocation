@@ -10,12 +10,12 @@ const useGeolcation= ()=>{
                 let coordss = {
                         lat: coords.coords.latitude,
                         lon: coords.coords.longitude
-                } 
+                }
                 setCoordinates(coordss)
            },()=>{
                console.log("permission denied")
-           }) 
-    },[])  
+           })
+    },[])
     return coords
 }
 
@@ -31,3 +31,4 @@ const App =()=>{
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
+//testing git
